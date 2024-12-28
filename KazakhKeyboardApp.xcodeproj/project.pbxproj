@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6C98CF2D1EDDA800ED625A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C98CE2D1EDDA800ED625A /* KeyboardViewController.swift */; };
+		4A6C98D32D1EDDA800ED625A /* KazakhKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A6C98CC2D1EDDA700ED625A /* KazakhKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A882BAB2D1DD409006CEC85 /* KazakhKeyboardAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A882BAA2D1DD409006CEC85 /* KazakhKeyboardAppApp.swift */; };
+		4A882BAD2D1DD409006CEC85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A882BAC2D1DD409006CEC85 /* ContentView.swift */; };
+		4A882BAF2D1DD40B006CEC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A882BAE2D1DD40B006CEC85 /* Assets.xcassets */; };
+		4A882BB32D1DD40B006CEC85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A882BB22D1DD40B006CEC85 /* Preview Assets.xcassets */; };
+		4A882BBD2D1DD40B006CEC85 /* KazakhKeyboardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A882BBC2D1DD40B006CEC85 /* KazakhKeyboardAppTests.swift */; };
+		4A882BC72D1DD40B006CEC85 /* KazakhKeyboardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A882BC62D1DD40B006CEC85 /* KazakhKeyboardAppUITests.swift */; };
+		4A882BC92D1DD40B006CEC85 /* KazakhKeyboardAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A882BC82D1DD40B006CEC85 /* KazakhKeyboardAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6C98D12D1EDDA800ED625A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A882B9F2D1DD409006CEC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6C98CB2D1EDDA700ED625A;
+			remoteInfo = KazakhKeyboard;
+		};
+		4A882BB92D1DD40B006CEC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A882B9F2D1DD409006CEC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A882BA62D1DD409006CEC85;
+			remoteInfo = KazakhKeyboardApp;
+		};
+		4A882BC32D1DD40B006CEC85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A882B9F2D1DD409006CEC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A882BA62D1DD409006CEC85;
+			remoteInfo = KazakhKeyboardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A6C98D42D1EDDA800ED625A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4A6C98D32D1EDDA800ED625A /* KazakhKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A6C98CC2D1EDDA700ED625A /* KazakhKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KazakhKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6C98CE2D1EDDA800ED625A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		4A6C98D02D1EDDA800ED625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A882BA72D1DD409006CEC85 /* KazakhKeyboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KazakhKeyboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A882BAA2D1DD409006CEC85 /* KazakhKeyboardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazakhKeyboardAppApp.swift; sourceTree = "<group>"; };
+		4A882BAC2D1DD409006CEC85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A882BAE2D1DD40B006CEC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A882BB02D1DD40B006CEC85 /* KazakhKeyboardApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KazakhKeyboardApp.entitlements; sourceTree = "<group>"; };
+		4A882BB22D1DD40B006CEC85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A882BB82D1DD40B006CEC85 /* KazakhKeyboardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KazakhKeyboardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A882BBC2D1DD40B006CEC85 /* KazakhKeyboardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazakhKeyboardAppTests.swift; sourceTree = "<group>"; };
+		4A882BC22D1DD40B006CEC85 /* KazakhKeyboardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KazakhKeyboardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A882BC62D1DD40B006CEC85 /* KazakhKeyboardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazakhKeyboardAppUITests.swift; sourceTree = "<group>"; };
+		4A882BC82D1DD40B006CEC85 /* KazakhKeyboardAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KazakhKeyboardAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6C98C92D1EDDA700ED625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BA42D1DD409006CEC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BB52D1DD40B006CEC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BBF2D1DD40B006CEC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6C98CD2D1EDDA800ED625A /* KazakhKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C98CE2D1EDDA800ED625A /* KeyboardViewController.swift */,
+				4A6C98D02D1EDDA800ED625A /* Info.plist */,
+			);
+			path = KazakhKeyboard;
+			sourceTree = "<group>";
+		};
+		4A882B9E2D1DD409006CEC85 = {
+			isa = PBXGroup;
+			children = (
+				4A882BA92D1DD409006CEC85 /* KazakhKeyboardApp */,
+				4A882BBB2D1DD40B006CEC85 /* KazakhKeyboardAppTests */,
+				4A882BC52D1DD40B006CEC85 /* KazakhKeyboardAppUITests */,
+				4A6C98CD2D1EDDA800ED625A /* KazakhKeyboard */,
+				4A882BA82D1DD409006CEC85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A882BA82D1DD409006CEC85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A882BA72D1DD409006CEC85 /* KazakhKeyboardApp.app */,
+				4A882BB82D1DD40B006CEC85 /* KazakhKeyboardAppTests.xctest */,
+				4A882BC22D1DD40B006CEC85 /* KazakhKeyboardAppUITests.xctest */,
+				4A6C98CC2D1EDDA700ED625A /* KazakhKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A882BA92D1DD409006CEC85 /* KazakhKeyboardApp */ = {
+			isa = PBXGroup;
+			children = (
+				4A882BAA2D1DD409006CEC85 /* KazakhKeyboardAppApp.swift */,
+				4A882BAC2D1DD409006CEC85 /* ContentView.swift */,
+				4A882BAE2D1DD40B006CEC85 /* Assets.xcassets */,
+				4A882BB02D1DD40B006CEC85 /* KazakhKeyboardApp.entitlements */,
+				4A882BB12D1DD40B006CEC85 /* Preview Content */,
+			);
+			path = KazakhKeyboardApp;
+			sourceTree = "<group>";
+		};
+		4A882BB12D1DD40B006CEC85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A882BB22D1DD40B006CEC85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A882BBB2D1DD40B006CEC85 /* KazakhKeyboardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A882BBC2D1DD40B006CEC85 /* KazakhKeyboardAppTests.swift */,
+			);
+			path = KazakhKeyboardAppTests;
+			sourceTree = "<group>";
+		};
+		4A882BC52D1DD40B006CEC85 /* KazakhKeyboardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A882BC62D1DD40B006CEC85 /* KazakhKeyboardAppUITests.swift */,
+				4A882BC82D1DD40B006CEC85 /* KazakhKeyboardAppUITestsLaunchTests.swift */,
+			);
+			path = KazakhKeyboardAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A6C98CB2D1EDDA700ED625A /* KazakhKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6C98D72D1EDDA800ED625A /* Build configuration list for PBXNativeTarget "KazakhKeyboard" */;
+			buildPhases = (
+				4A6C98C82D1EDDA700ED625A /* Sources */,
+				4A6C98C92D1EDDA700ED625A /* Frameworks */,
+				4A6C98CA2D1EDDA700ED625A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KazakhKeyboard;
+			productName = KazakhKeyboard;
+			productReference = 4A6C98CC2D1EDDA700ED625A /* KazakhKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4A882BA62D1DD409006CEC85 /* KazakhKeyboardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A882BCC2D1DD40B006CEC85 /* Build configuration list for PBXNativeTarget "KazakhKeyboardApp" */;
+			buildPhases = (
+				4A882BA32D1DD409006CEC85 /* Sources */,
+				4A882BA42D1DD409006CEC85 /* Frameworks */,
+				4A882BA52D1DD409006CEC85 /* Resources */,
+				4A6C98D42D1EDDA800ED625A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6C98D22D1EDDA800ED625A /* PBXTargetDependency */,
+			);
+			name = KazakhKeyboardApp;
+			productName = KazakhKeyboardApp;
+			productReference = 4A882BA72D1DD409006CEC85 /* KazakhKeyboardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A882BB72D1DD40B006CEC85 /* KazakhKeyboardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A882BCF2D1DD40B006CEC85 /* Build configuration list for PBXNativeTarget "KazakhKeyboardAppTests" */;
+			buildPhases = (
+				4A882BB42D1DD40B006CEC85 /* Sources */,
+				4A882BB52D1DD40B006CEC85 /* Frameworks */,
+				4A882BB62D1DD40B006CEC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A882BBA2D1DD40B006CEC85 /* PBXTargetDependency */,
+			);
+			name = KazakhKeyboardAppTests;
+			productName = KazakhKeyboardAppTests;
+			productReference = 4A882BB82D1DD40B006CEC85 /* KazakhKeyboardAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A882BC12D1DD40B006CEC85 /* KazakhKeyboardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A882BD22D1DD40B006CEC85 /* Build configuration list for PBXNativeTarget "KazakhKeyboardAppUITests" */;
+			buildPhases = (
+				4A882BBE2D1DD40B006CEC85 /* Sources */,
+				4A882BBF2D1DD40B006CEC85 /* Frameworks */,
+				4A882BC02D1DD40B006CEC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A882BC42D1DD40B006CEC85 /* PBXTargetDependency */,
+			);
+			name = KazakhKeyboardAppUITests;
+			productName = KazakhKeyboardAppUITests;
+			productReference = 4A882BC22D1DD40B006CEC85 /* KazakhKeyboardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A882B9F2D1DD409006CEC85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4A6C98CB2D1EDDA700ED625A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4A882BA62D1DD409006CEC85 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4A882BB72D1DD40B006CEC85 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A882BA62D1DD409006CEC85;
+					};
+					4A882BC12D1DD40B006CEC85 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4A882BA62D1DD409006CEC85;
+					};
+				};
+			};
+			buildConfigurationList = 4A882BA22D1DD409006CEC85 /* Build configuration list for PBXProject "KazakhKeyboardApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A882B9E2D1DD409006CEC85;
+			productRefGroup = 4A882BA82D1DD409006CEC85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A882BA62D1DD409006CEC85 /* KazakhKeyboardApp */,
+				4A882BB72D1DD40B006CEC85 /* KazakhKeyboardAppTests */,
+				4A882BC12D1DD40B006CEC85 /* KazakhKeyboardAppUITests */,
+				4A6C98CB2D1EDDA700ED625A /* KazakhKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A6C98CA2D1EDDA700ED625A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BA52D1DD409006CEC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A882BB32D1DD40B006CEC85 /* Preview Assets.xcassets in Resources */,
+				4A882BAF2D1DD40B006CEC85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BB62D1DD40B006CEC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BC02D1DD40B006CEC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6C98C82D1EDDA700ED625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6C98CF2D1EDDA800ED625A /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BA32D1DD409006CEC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A882BAD2D1DD409006CEC85 /* ContentView.swift in Sources */,
+				4A882BAB2D1DD409006CEC85 /* KazakhKeyboardAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BB42D1DD40B006CEC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A882BBD2D1DD40B006CEC85 /* KazakhKeyboardAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A882BBE2D1DD40B006CEC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A882BC72D1DD40B006CEC85 /* KazakhKeyboardAppUITests.swift in Sources */,
+				4A882BC92D1DD40B006CEC85 /* KazakhKeyboardAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6C98D22D1EDDA800ED625A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6C98CB2D1EDDA700ED625A /* KazakhKeyboard */;
+			targetProxy = 4A6C98D12D1EDDA800ED625A /* PBXContainerItemProxy */;
+		};
+		4A882BBA2D1DD40B006CEC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A882BA62D1DD409006CEC85 /* KazakhKeyboardApp */;
+			targetProxy = 4A882BB92D1DD40B006CEC85 /* PBXContainerItemProxy */;
+		};
+		4A882BC42D1DD40B006CEC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A882BA62D1DD409006CEC85 /* KazakhKeyboardApp */;
+			targetProxy = 4A882BC32D1DD40B006CEC85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A6C98D52D1EDDA800ED625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX955H55YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KazakhKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KazakhKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardApp.KazakhKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A6C98D62D1EDDA800ED625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX955H55YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KazakhKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KazakhKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardApp.KazakhKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A882BCA2D1DD40B006CEC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A882BCB2D1DD40B006CEC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A882BCD2D1DD40B006CEC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KazakhKeyboardApp/KazakhKeyboardApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KazakhKeyboardApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TX955H55YC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A882BCE2D1DD40B006CEC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KazakhKeyboardApp/KazakhKeyboardApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KazakhKeyboardApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TX955H55YC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A882BD02D1DD40B006CEC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX955H55YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KazakhKeyboardApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KazakhKeyboardApp";
+			};
+			name = Debug;
+		};
+		4A882BD12D1DD40B006CEC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX955H55YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KazakhKeyboardApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KazakhKeyboardApp";
+			};
+			name = Release;
+		};
+		4A882BD32D1DD40B006CEC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX955H55YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KazakhKeyboardApp;
+			};
+			name = Debug;
+		};
+		4A882BD42D1DD40B006CEC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TX955H55YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app.KazakhKeyboardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KazakhKeyboardApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6C98D72D1EDDA800ED625A /* Build configuration list for PBXNativeTarget "KazakhKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6C98D52D1EDDA800ED625A /* Debug */,
+				4A6C98D62D1EDDA800ED625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A882BA22D1DD409006CEC85 /* Build configuration list for PBXProject "KazakhKeyboardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A882BCA2D1DD40B006CEC85 /* Debug */,
+				4A882BCB2D1DD40B006CEC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A882BCC2D1DD40B006CEC85 /* Build configuration list for PBXNativeTarget "KazakhKeyboardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A882BCD2D1DD40B006CEC85 /* Debug */,
+				4A882BCE2D1DD40B006CEC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A882BCF2D1DD40B006CEC85 /* Build configuration list for PBXNativeTarget "KazakhKeyboardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A882BD02D1DD40B006CEC85 /* Debug */,
+				4A882BD12D1DD40B006CEC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A882BD22D1DD40B006CEC85 /* Build configuration list for PBXNativeTarget "KazakhKeyboardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A882BD32D1DD40B006CEC85 /* Debug */,
+				4A882BD42D1DD40B006CEC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A882B9F2D1DD409006CEC85 /* Project object */;
+}
